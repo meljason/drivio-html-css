@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Raleway:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 15px auto;
+}
+
+header div.logo {
+    margin-right: 8%;
+}
+
+header div.logo p{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+header div.header-menu {
+    align-self: center;
+}
+
+header div.header-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header div.header-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header div.register-menu {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+header div.register-menu a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+header div.register-menu div.btn-sign-in{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+main div.header-bg {
+    background-color: #E1E2EB;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.cards-group {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+}
+
+main div.top-banner-text{
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5em;
+}
+
+
+main div.top-banner-text h1 {
+    max-width: 600px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.cards-group .card-item {
+    position: relative;
+    height: 450px;
+    width: 315px;
+    margin: 0 7px
+}
+
+.item-details {
+    margin-left: 30px;
+}
+
+.cards-group .card-item .shape {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFDFD;
+    height: 400px;
+    width: 315px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.25);
+
+    transform: skewX(-5deg);
+}
+
+.cards-group .card-item .shape .item-image  {
+    height: 40%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.cards-group .card-item .shape .item-image img {
+    height: 100%;
+    transform: skewX(5deg);
+}
+.item-details {
+    transform: skewX(5deg);
+    padding: 20px
+}
+
+.cards-group .card-item .shape .item-details .item-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.car-specification {
+    font-size: 14px;
+    margin-bottom: 30px !important;
+}
+
+.item-details .price {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.item-details .price span{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.book-now-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 130px;
+    margin: 0 60px;
+    transform: skewX(5deg);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-left: 13px !important;
+}
+
+main div.services {
+    max-width: 1350px;
+    margin: auto;
+}
+
+main div.services h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
