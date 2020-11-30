@@ -5,7 +5,7 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         arrows: true,
-        autoplay: true,
+        autoplay: false,
     });
     var filtered = false;
 
@@ -20,5 +20,7 @@ $(document).ready(function(){
         filtered = false;
     }
     });
+
+    $('.cards-group-tablet').slick();
       
 });

@@ -94,7 +94,7 @@ main div.top-banner-text h1 {
     position: relative;
     height: 450px;
     width: 315px;
-    margin: 0 7px
+    margin: 0 7px;
 }
 
 .item-details {
@@ -178,6 +178,72 @@ main div.services {
 main div.services h1 {
     text-align: center;
     margin-bottom: 10px;
+}
+
+.cards-group-tablet {
+    display: none !important;
+}
+
+/* TODO */
+@media screen and (max-width: 1180px) {
+    header, .services  {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    header {
+        margin-top: 10px
+    }
+
+    main div.top-banner-text{
+        max-width: 900px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 5em;
+    }
+
+    .cards-group {
+        display: none !important;
+    }
+
+    .cards-group-tablet {
+        max-width: 900px;
+        margin: auto;
+        display: block !important;
+    }
+
+    .cards-group-tablet .card-item {
+        padding: 10px;
+    }
+
+    .cards-group-tablet .card-item .shape{
+        background-color: white;
+        box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.25);
+        margin: 0 20px 0 15px;
+        display: flex;
+        height: 260px;
+        padding: 25px 6em;
+        flex-direction: row !important;
+    }
+
+    .item-details {
+        transform: skewX(0deg);
+        padding: 20px
+    }
+
+    .book-now-button {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        width: 130px;
+        margin: 0px;
+        transform: skewX(0deg);
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
 }
 
 
